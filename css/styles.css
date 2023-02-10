@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rakeway',sans-serif;
+}
+/* Header Section Styles */
+.banner-container {
+    height: 700px;
+    background-image: url(../images/banner/banner1.png);
+}
+.banner-content {
+    padding: 300px 110px 0 0;
+    text-align: right;
+}
+.banner-title {
+    font-size: 50px;
+}
+.banner-description {
+    margin: 10px 0;
+    font-size: 18px;
+    color: gray;
+    font-weight: 100;
+}
+.btn-primary {
+    font-size: 18px;
+    color: #fff;;
+    background-color: #ffa500;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+}
+/* Previous Year Section Style */
+/* .previous-container {
+    height: 700px;
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    background-color: #ffa500;
+} */
+.previous-container {
+    height: 800px;
+    display: flex;
+    
+}
+.image-content {
+    width: 500px;
+    margin: 80px 0 50px 200px;
+}
+.previous-year-right {
+    text-align: left;
+    margin-top: 200px;
+}
+.title-info {
+    font-size: 30px;
+}
+.title-info .description {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+/* Plan Section Styles */
+.plan-container {
+    width: 1200px;
+}
+.plan-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 300px;
+}
+.plan-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+}
+.plan-content div {
+    margin: 70px 0;
+    text-align: center;
+}
+.plan-content p {
+    color: rgb(148, 146, 146);
+    font-size: 25px;
+    margin: 20px 0;
+
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.plan-item {
+    width: 800px;
+    height: 250px;
+    margin: 0 0 100px 100px;
+}
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 287px;
+    text-align: left;
+}
+.btn-item {
+    color: #ff4800;
+    font-size:18px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+/* Footer Section Styles */
+footer {
+    color: #fff;
+    background: #000;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-title {
+    margin-top: 130px;
+}
+.footer-item {
+    color: #fff;
+    text-decoration: none;
+}
+footer p{
+    margin: 30px 0;
+}
+.footer-form {
+    margin-top: 130px;
+}
+.footer-form input {
+    width: 250px;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 20px 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer-form button {
+    color: #ff4800;
+    font-size:18px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
